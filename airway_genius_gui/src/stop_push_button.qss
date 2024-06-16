@@ -1,0 +1,35 @@
+/*this style sheet is modified from the qfluentwidgets source code*/
+/*the link of original GitHub repository is: https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide6/qfluentwidgets/_rc/qss/light*/
+QPushButton {
+    color: white;
+    background: rgba(255, 20, 20, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.073);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.183);
+    border-radius: 5px;
+    /* font: 14px 'Segoe UI', 'Microsoft YaHei'; */
+    padding: 5px 12px 6px 12px;
+    outline: none;
+}
+QPushButton[isPlaceholderText=true] {
+    color: rgba(0, 0, 0, 0.6063);
+}
+QPushButton[hasIcon=false] {
+    padding: 5px 12px 6px 12px;
+}
+QPushButton[hasIcon=true] {
+    padding: 5px 12px 6px 36px;
+}
+QPushButton:hover {
+    background: rgba(249, 15, 15, 0.55);
+}
+QPushButton:pressed {
+    color: rgba(230, 230, 230, 0.73);
+    background: rgba(249, 15, 15, 0.35);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.073);
+}
+QPushButton:disabled {
+    color: rgba(230, 230, 230, 0.56);
+    background: rgba(220, 30, 30, 0.36);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
